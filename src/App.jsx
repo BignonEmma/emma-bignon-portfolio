@@ -5,6 +5,7 @@ import Projects from "./Pages/Projects";
 import ContactMe from "./Pages/ContactMe";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+
 import "./Style/App.css";
 
 function App() {

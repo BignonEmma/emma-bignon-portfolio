@@ -1,0 +1,24 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.bio-link {
+  text-align: center;
+}
+
+.img-name {
+  width: 35%;
+  height: auto;
+  transition: all 500ms;
+}
+.img-enter {
+  width: 15%;
+  height: auto;
+  transition: all 400ms;
+}
+.img-enter:hover {
+  width: 17%;
+}
