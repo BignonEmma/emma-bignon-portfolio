@@ -1,4 +1,7 @@
 .footer-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   display: flex;
   text-align: center;
   align-items: center;
@@ -14,6 +17,7 @@
 .logo-footer {
   margin: 2.5em 0;
   color: var(--texts);
+  transition: all 400ms;
 }
 
 .logo-footer a {
@@ -23,4 +27,5 @@
   -webkit-filter: drop-shadow(0px 2px 4px rgba(255, 255, 255, 0.774));
   filter: drop-shadow(0px 2px 4px rgba(255, 255, 255, 0.774));
   cursor: pointer;
+  transform: scale(1.15);
 }
