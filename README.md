@@ -1,9 +1,11 @@
-# Getting Started with Create React App
+## Concept
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created for the third checkpoint in my school (Wild Code School), the goal is to create the most complete app possible, in three days.
+For this project, I choosed to realize my own portfolio.
 
 ## Available Scripts
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
 
 ### `npm start`
@@ -39,32 +41,30 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## User Stories
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Here are the user stories of this project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### US_01_Navbar&Footer
 
-### Code Splitting
+- Creation of the navigation bar
+- Creation of the footer
+- Creation of all the routes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### US_02_HomePage
 
-### Analyzing the Bundle Size
+- Creation of the home page
+- Creation of the credit modal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### US_03_BioPage
 
-### Making a Progressive Web App
+- Creation of the biography page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### US_04_ProjectsPage
 
-### Advanced Configuration
+- Creation of the projects page where all my works are going to be gathered
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### US_05_ContactPage
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Creation of the contact page
+- If possible within the time given, functional form
