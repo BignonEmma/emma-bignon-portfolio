@@ -143,13 +143,21 @@ table {
 .App {
   font-family: "VarelaRound", sans-serif;
   font-weight: 500;
+  display: flex;
+}
+
+.container {
+  background-color: var(--light-grey);
+  height: 100vh;
+  width: 100vw;
+  box-shadow: inset 0px 0px 15px rgba(51, 51, 51, 0.363);
 }
 
 :root {
   /* Colors */
   --light-grey: rgb(248, 248, 248);
   --accent-green: rgb(160, 202, 150);
-  --accent-yellow: rgb(229, 203, 151);
+  --accent-orange: rgb(229, 186, 151);
   --texts: rgb(43, 43, 43);
 
   /* Font-Weight */
