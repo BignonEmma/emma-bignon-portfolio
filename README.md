@@ -54,7 +54,6 @@ Here are the user stories of this project.
 ### US_02_HomePage
 
 - Creation of the home page
-- Creation of the credit modal
 
 ### US_03_BioPage
 
@@ -63,6 +62,7 @@ Here are the user stories of this project.
 ### US_04_ProjectsPage
 
 - Creation of the projects page where all my works are going to be gathered
+- Creation of the credit modal
 
 ### US_05_ContactPage
 
