@@ -1,6 +1,5 @@
 import "../Style/Bio.css";
 import Leaf from "../Assets/Pictures/palmcolo.png";
-import Line from "../Assets/Pictures/Line.png";
 import Writing from "../Assets/Pictures/writing.png";
 import Music from "../Assets/Pictures/music.png";
 import Cook from "../Assets/Pictures/recipe-book.png";
@@ -24,7 +23,7 @@ export default function Biography() {
           <img src={Leaf} alt="leaf" className="leaf-img" />
           <div className="title-block">
             <h2 className="title-bio">who am i ?</h2>
-            <img src={Line} alt="leaf" className="line-img" />
+            <div className="border-bottom" />
           </div>
         </div>
         <p className="text-bio">
@@ -42,7 +41,7 @@ export default function Biography() {
           <img src={Leaf} alt="leaf" className="leaf-img" />
           <div className="title-block">
             <h2 className="title-bio">career path</h2>
-            <img src={Line} alt="leaf" className="line-img" />
+            <div className="border-bottom" />
           </div>
         </div>
         <p className="text-bio">
