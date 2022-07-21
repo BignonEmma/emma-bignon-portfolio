@@ -45,7 +45,7 @@
   color: var(--texts);
 }
 .card-projects:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 .projects-img {
   border-radius: 5px;
@@ -62,7 +62,6 @@
 .card-title a {
   color: var(--texts);
   text-decoration: none;
-  cursor: pointer;
 }
 .card-bordertop {
   border-top: solid 2px var(--accent-orange);
