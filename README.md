@@ -67,8 +67,11 @@ Here are the user stories of this project.
 ### US_05_ContactPage
 
 - Creation of the contact page
-- If possible within the time given, functional form
 
 ### US_06_ModalCredits
 
 - Creation of the credit modal
+
+### US_07_Responsive&Fix
+
+- If possible within the time given, responsive app
