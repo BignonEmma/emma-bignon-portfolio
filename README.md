@@ -3,6 +3,9 @@
 This project was created for the third checkpoint in my school (Wild Code School), the goal is to create the most complete app possible, in three days.
 For this project, I choosed to realize my own portfolio.
 
+Figma :
+(https://www.figma.com/file/hf7NNYpwTfzjWYoVYjNUji/PORTFOLIO?node-id=0%3A1)
+
 ## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
