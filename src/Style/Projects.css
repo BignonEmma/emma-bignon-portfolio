@@ -17,12 +17,6 @@
   font-size: var(--L);
   color: var(--texts);
 }
-.border-bottom {
-  width: 25em;
-  margin-top: 0.8em;
-  border-top: solid 2px var(--accent-green);
-  border-radius: 20px;
-}
 
 .projects-flex {
   display: flex;
@@ -92,5 +86,18 @@
   }
   .card-description {
     font-size: 0.95em;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .container-projects {
+    height: auto;
+    width: auto;
+    margin: 1em 1em;
+  }
+  .card-projects:hover {
+    transform: scale(1);
+  }
+  .title-project {
+    font-size: var(--M);
   }
 }
