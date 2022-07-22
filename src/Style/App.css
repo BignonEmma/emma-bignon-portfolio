@@ -139,18 +139,28 @@ table {
     url("../Assets/Fonts/PlayfairDisplay-VariableFont_wght.ttf")
       format("truetype");
 }
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("PlayfairDisplay-Black"),
+    url("../Assets/Fonts/PlayfairDisplay-Black.ttf") format("truetype");
+}
 
 .App {
   font-family: "VarelaRound", sans-serif;
   font-weight: 500;
+  height: 100vh;
+  background-color: var(--light-grey);
+  display: flex;
 }
 
 :root {
   /* Colors */
-  --light-grey: rgb(248, 248, 248);
+  --light-grey: rgb(250, 250, 250);
   --accent-green: rgb(160, 202, 150);
-  --accent-yellow: rgb(229, 203, 151);
-  --texts: rgb(43, 43, 43);
+  --accent-orange: rgb(229, 176, 151);
+  --texts: rgb(51, 51, 51);
 
   /* Font-Weight */
   --black: 900;
@@ -164,11 +174,29 @@ table {
   --L: clamp(1.5rem, 3vw, 2.25rem);
   --M: clamp(1.25rem, 2vw, 2.25rem);
   --S: clamp(1rem, 1.5vw, 2rem);
-  --XS: clamp(0.75rem, 1vw, 1rem);
+  --XS: clamp(0.75rem, 1vw, 0.9rem);
 
   /*Breakpoints 
   @media screen and (min-width: 479.98px)
   @media screen and (min-width: 767.98px)
   @media screen and (min-width: 1199.98px)
   */
+
+  --toastify-color-progress-light: linear-gradient(
+    to right,
+    rgb(160, 202, 150),
+    rgb(229, 176, 151)
+  ) !important;
+}
+
+div {
+  font-family: "VarelaRound", sans-serif;
+}
+
+@media screen and (max-width: 767.98px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
 }

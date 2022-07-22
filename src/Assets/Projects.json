@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Atelier Du Piquessary",
+    "picture": "adp.PNG",
+    "description": "Project in progress for a showcase website for cutlery."
+  },
+  {
+    "name": "Apshare",
+    "picture": "hackaton2.PNG",
+    "description": "Team project realized in 48h during my studies at the Wild Code School for the hackaton n°2."
+  },
+  {
+    "name": "Masterwild",
+    "picture": "masterwild.PNG",
+    "description": "Team project n°3 realized during my studies at the Wild Code School.",
+    "link": "https://masterwild.remote-fr-2.wilders.dev/"
+  },
+  {
+    "name": "Foodie Score",
+    "picture": "hackaton1.PNG",
+    "description": "Team project realized in 24h during my studies at the Wild Code School for the hackaton n°1."
+  },
+  {
+    "name": "Cocktail Finder",
+    "picture": "cocktail.PNG",
+    "description": "Team project n°2 realized during my studies at the Wild Code School.",
+    "link": "https://project-2-teamkarma-wolfs.herokuapp.com/"
+  },
+  {
+    "name": "The Square Project",
+    "picture": "squarepro.PNG",
+    "description": "Team project n°1 realized during my studies at the Wild Code School.",
+    "link": "https://gnos28.github.io/"
+  }
+]
