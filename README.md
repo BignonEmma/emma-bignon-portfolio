@@ -68,3 +68,7 @@ Here are the user stories of this project.
 
 - Creation of the contact page
 - If possible within the time given, functional form
+
+### US_06_ModalCredits
+
+- Creation of the credit modal
