@@ -1,9 +1,21 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "../Style/Contact.css";
 import Leaf from "../Assets/Pictures/palmcolo.png";
 
 export default function ContactMe() {
+  const notify = () =>
+    toast("Your message has been sent !", {
+      position: "top-right",
+      autoClose: 4000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -28,6 +40,7 @@ export default function ContactMe() {
   };
   return (
     <div className="container-contacts">
+      <ToastContainer />
       <div className="top-part">
         <img src={Leaf} alt="leaf" className="leaf-img" />
         <div className="title-block">
@@ -60,7 +73,12 @@ export default function ContactMe() {
             name="user_message"
             className="content-form"
           />
-          <button type="submit" value="send" className="button-form">
+          <button
+            type="submit"
+            value="send"
+            onClick={notify}
+            className="button-form"
+          >
             Send
           </button>
         </form>

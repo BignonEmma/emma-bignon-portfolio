@@ -54,59 +54,99 @@ export default function Biography() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <div className="block-like-skill">
-        <div className="block-likes">
-          <h2 className="title-likes">what i like</h2>
-          <div className="likes-icons">
-            <div className="padd-icon">
-              <img src={Writing} alt="book" className="logo-likes" />
+      <div className="center-block">
+        <div className="block-like-skill">
+          <div className="block-likes">
+            <h2 className="title-likes">what i like</h2>
+            <div className="likes-icons">
+              <div className="padd-icon">
+                <img src={Writing} alt="book" className="logo-likes" />
+              </div>
+              <div className="padd-icon">
+                <img src={Music} alt="leaf" className="logo-likes" />
+              </div>
+              <div className="padd-icon">
+                <img src={Cook} alt="leaf" className="logo-likes" />
+              </div>
             </div>
-            <div className="padd-icon">
-              <img src={Music} alt="leaf" className="logo-likes" />
-            </div>
-            <div className="padd-icon">
-              <img src={Cook} alt="leaf" className="logo-likes" />
-            </div>
-          </div>
-          <div className="likes-icons">
-            <div className="padd-icon">
-              <img src={Coding} alt="book" className="logo-likes" />
-            </div>
-            <div className="padd-icon">
-              <img src={Read} alt="leaf" className="logo-likes" />
-            </div>
-            <div className="padd-icon">
-              <img src={Game} alt="leaf" className="logo-likes" />
-            </div>
-          </div>
-        </div>
-        <div className="border-center" />
-        <div className="block-skills">
-          <h2 className="title-skills">what i use</h2>
-          <div className="skills-icons">
-            <div className="padd-icon">
-              <DiHtml5 color="var(--accent-orange)" size="3em" alt="html" />
-            </div>
-            <div className="padd-icon">
-              <DiCss3Full color="var(--accent-green)" size="3em" alt="css" />
-            </div>
-            <div className="padd-icon">
-              <DiJavascript1 color="var(--accent-orange)" size="3em" alt="js" />
+            <div className="likes-icons">
+              <div className="padd-icon">
+                <img src={Coding} alt="book" className="logo-likes" />
+              </div>
+              <div className="padd-icon">
+                <img src={Read} alt="leaf" className="logo-likes" />
+              </div>
+              <div className="padd-icon">
+                <img src={Game} alt="leaf" className="logo-likes" />
+              </div>
             </div>
           </div>
-          <div className="skills-icons">
-            <div className="padd-icon">
-              <DiMysql color="var(--accent-green)" size="3em" alt="mysql" />
+          <div className="border-center" />
+          <div className="block-skills">
+            <h2 className="title-skills">what i use</h2>
+            <div className="skills-icons-desktop">
+              <div className="padd-icon">
+                <DiHtml5 color="var(--accent-orange)" size="3em" alt="html" />
+              </div>
+              <div className="padd-icon">
+                <DiCss3Full color="var(--accent-green)" size="3em" alt="css" />
+              </div>
+              <div className="padd-icon">
+                <DiJavascript1
+                  color="var(--accent-orange)"
+                  size="3em"
+                  alt="js"
+                />
+              </div>
             </div>
-            <div className="padd-icon">
-              <DiGit color="var(--accent-orange)" size="3em" alt="git" />
+            <div className="skills-icons-desktop">
+              <div className="padd-icon">
+                <DiMysql color="var(--accent-green)" size="3em" alt="mysql" />
+              </div>
+              <div className="padd-icon">
+                <DiGit color="var(--accent-orange)" size="3em" alt="git" />
+              </div>
+              <div className="padd-icon">
+                <DiPhotoshop
+                  color="var(--accent-green)"
+                  size="3em"
+                  alt="photoshop"
+                />
+              </div>
             </div>
-            <div className="padd-icon">
-              <DiPhotoshop
-                color="var(--accent-green)"
-                size="3em"
-                alt="photoshop"
-              />
+            <div className="skills-icons-mobile">
+              <div className="padd-icon-skills">
+                <DiHtml5 color="var(--accent-orange)" size="1.8em" alt="html" />
+              </div>
+              <div className="padd-icon-skills">
+                <DiCss3Full
+                  color="var(--accent-green)"
+                  size="1.8em"
+                  alt="css"
+                />
+              </div>
+              <div className="padd-icon-skills">
+                <DiJavascript1
+                  color="var(--accent-orange)"
+                  size="1.8em"
+                  alt="js"
+                />
+              </div>
+            </div>
+            <div className="skills-icons-mobile">
+              <div className="padd-icon-skills">
+                <DiMysql color="var(--accent-green)" size="1.8em" alt="mysql" />
+              </div>
+              <div className="padd-icon-skills">
+                <DiGit color="var(--accent-orange)" size="1.8em" alt="git" />
+              </div>
+              <div className="padd-icon-skills">
+                <DiPhotoshop
+                  color="var(--accent-green)"
+                  size="1.8em"
+                  alt="photoshop"
+                />
+              </div>
             </div>
           </div>
         </div>

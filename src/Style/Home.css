@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+  width: 100vw;
 }
 .bio-link {
   text-align: center;
@@ -21,4 +22,21 @@
 }
 .img-enter:hover {
   width: 17%;
+}
+
+@media screen and (max-width: 767.98px) {
+  .home-container {
+    height: calc(100vh - 6em);
+  }
+  .img-name {
+    width: 65%;
+    height: auto;
+  }
+  .img-enter {
+    width: 22%;
+    height: auto;
+  }
+  .img-enter:hover {
+    width: 22%;
+  }
 }

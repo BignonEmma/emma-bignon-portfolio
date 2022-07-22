@@ -88,3 +88,11 @@ textarea:focus-visible {
   letter-spacing: 0.5em;
   cursor: pointer;
 }
+
+@media screen and (max-width: 767.98px) {
+  .container-contacts {
+    height: auto;
+    width: auto;
+    margin: 3.85em 1em;
+  }
+}
