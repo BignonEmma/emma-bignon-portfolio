@@ -18,7 +18,7 @@
   color: var(--texts);
 }
 .border-bottom {
-  width: 23em;
+  width: 25em;
   margin-top: 0.8em;
   border-top: solid 2px var(--accent-green);
   border-radius: 20px;
@@ -37,7 +37,7 @@
   background-color: white;
   border-radius: 10px;
   padding: 0.9em;
-  box-shadow: 3px 3px 5px rgba(163, 163, 163, 0.253);
+  box-shadow: 2px 2px 4px rgba(141, 141, 141, 0.253);
   width: 18em;
   margin-top: 2em;
   margin-right: 0.5em;
@@ -50,7 +50,7 @@
 .projects-img {
   border-radius: 5px;
   width: 18em;
-  box-shadow: 1px 1px 3px rgba(163, 163, 163, 0.253);
+  box-shadow: 1px 1px 5px rgba(163, 163, 163, 0.178);
 }
 .card-title {
   font-size: 1.05em;
